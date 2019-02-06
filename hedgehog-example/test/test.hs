@@ -5,7 +5,6 @@ import qualified Test.Example.Exception as Test.Example.Exception
 import qualified Test.Example.QuickCheck as Test.Example.QuickCheck
 import qualified Test.Example.References as Test.Example.References
 import qualified Test.Example.Registry as Test.Example.Registry
-import qualified Test.Example.Resource as Test.Example.Resource
 import qualified Test.Example.Roundtrip as Test.Example.Roundtrip
 import qualified Test.Example.STLC as Test.Example.STLC
 
@@ -20,7 +19,6 @@ main = do
     , Test.Example.QuickCheck.tests
     , Test.Example.References.tests
     , Test.Example.Registry.tests
-    , Test.Example.Resource.tests
     , Test.Example.Roundtrip.tests
     , Test.Example.STLC.tests
     ]
